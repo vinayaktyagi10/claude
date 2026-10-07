@@ -22,3 +22,6 @@ The point is that the user articulates the learning, so prompt and record; do no
    Keep their wording, fixing only typos.
 3. Each "Unclear" item also goes into `.learning/vibe-debt.md` as an open item.
 4. If the entry contains a hard problem, a number (latency, size, count), or a failure and recovery, say it is a good interview story and offer `/coach:behavioral` to turn it into one.
+
+## Activity log
+As the final step, append one line to `~/.claude/coach/activity.md` (create it if missing): `YYYY-MM-DD | journal | <project dir name> | -`. This feeds `/coach:week`.

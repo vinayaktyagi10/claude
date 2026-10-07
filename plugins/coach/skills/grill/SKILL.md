@@ -33,3 +33,6 @@ After weak answers, probe once more rather than rescuing. Use `hard` to start at
 - Resume lines that overclaim or are unprovable, with suggested honest rewordings.
 - Append weak topics to `~/.claude/coach/weak-spots.md` as `- YYYY-MM-DD <topic> (grill: <project>) - box: 1, last: <date>`.
 - Suggest what to study next: `/coach:fundamentals`, `/coach:sysdesign`, or `/coach:explain-back` on the specific code.
+
+## Activity log
+As the final step, append one line to `~/.claude/coach/activity.md` (create it if missing): `YYYY-MM-DD | grill | <project or bullet> | <average score>/5`. This feeds `/coach:week`.

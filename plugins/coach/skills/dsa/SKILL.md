@@ -26,3 +26,6 @@ Log: `~/.claude/coach/dsa-log.md`, one line per attempt: `- YYYY-MM-DD <problem>
 
 ## After
 Say how it went honestly and log the line. If a pattern fails twice, drop to an easier problem in that pattern, not a harder one. End with the pattern's reusable template in two lines, and a pointer to what the next session should be.
+
+## Activity log
+As the final step, append one line to `~/.claude/coach/activity.md` (create it if missing): `YYYY-MM-DD | dsa | <problem, pattern> | <solo|hint-N|failed>`. This feeds `/coach:week`.

@@ -24,3 +24,6 @@ Arguments: `$ARGUMENTS`
 3. After each answer give a two to four line gold-standard answer and mark it solid, partial or miss.
 4. Finish with the three most important gaps, a compact explanation of each, and one hands-on experiment they can run in their own project to see it (e.g. start two psql sessions and observe the lock, run `strace`, set a cgroup limit).
 5. Log misses to `~/.claude/coach/weak-spots.md` as `- YYYY-MM-DD <topic> (fundamentals) - box: 1, last: <date>` so `/coach:quiz` brings them back.
+
+## Activity log
+As the final step, append one line to `~/.claude/coach/activity.md` (create it if missing): `YYYY-MM-DD | fundamentals | <area> | <solid>/<asked> solid`. This feeds `/coach:week`.

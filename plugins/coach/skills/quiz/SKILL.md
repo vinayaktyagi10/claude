@@ -15,3 +15,6 @@ Sources (read whichever exist): `.learning/concepts.md`, `.learning/vibe-debt.md
 3. No hints unless asked. After each answer: correct or not, the reason in two lines, then the next question.
 4. Update records. Right: move the item up a box and set `last: <date>`. Wrong: back to box 1. Store state as `box: N, last: YYYY-MM-DD` on the item's line, adding it where missing.
 5. Close with the score and the two weakest topics, and suggest `/coach:hint` or `/coach:explain-back` for them.
+
+## Activity log
+As the final step, append one line to `~/.claude/coach/activity.md` (create it if missing): `YYYY-MM-DD | quiz | <topic or "due"> | <correct>/5`. This feeds `/coach:week`.

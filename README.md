@@ -33,6 +33,7 @@ Limit: the guard blocks Claude's file-edit tools. A determined Bash redirect (`e
 
 | Command | Use |
 |---|---|
+| `/coach:week` | Daily planner: sets up your plan, reads your logs, tells you what to do today |
 | `/coach:mode` | Set or show the project's mode, create `.learning/` |
 | `/coach:onboard` | Old project: predict, then tour, concept checklist, first exercises |
 | `/coach:kickoff` | New project: you write the spec and decisions before code |
@@ -51,7 +52,17 @@ Limit: the guard blocks Claude's file-edit tools. A determined Bash redirect (`e
 ## Where data lives
 
 - Per project: `.learning/` (config, journal, vibe-debt, tour, concepts, spec, decisions). Commit it; it is your study notes.
-- Global, local to your machine: `~/.claude/coach/` (`resume.md`, `weak-spots.md`, `dsa-log.md`, `stories.md`). It holds your resume text, so keep it out of any repo.
+- Global, local to your machine: `~/.claude/coach/` (`plan.md`, `activity.md`, `resume.md`, `weak-spots.md`, `dsa-log.md`, `stories.md`). It holds your resume text, so keep it out of any repo.
+
+## Daily habit
+
+Open Claude Code and run `/coach:week`. The first run asks five questions and sets up your plan. After that it reads your logs and gives you today's one or two items, with the reason for each. Other forms:
+
+- `/coach:week week`: the next 7 days, adjusted for what is overdue.
+- `/coach:week phase sprint`: switch to interview-sprint mode (more mocks, hard grills, behavioral stories).
+- `/coach:week rest`: log a rest day so it is not counted as neglect.
+
+The interview skills append to `~/.claude/coach/activity.md` when they finish; that log is what `/coach:week` reads.
 
 ## Suggested start
 

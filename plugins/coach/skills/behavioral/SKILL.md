@@ -23,3 +23,6 @@ Bank: `~/.claude/coach/stories.md`. Use only facts the user gives you, their res
 
 ## pitch
 Write a 60 second "tell me about yourself" with the user: present (current role and strongest work), past (how you got here), future (what you want next, tailored to the role). Then draft a "why this company" outline with blanks for them to research and fill, and do not make up facts about the company.
+
+## Activity log
+As the final step, append one line to `~/.claude/coach/activity.md` (create it if missing): `YYYY-MM-DD | behavioral | <build|practice|pitch> | <stories in bank, or tag practiced>`. This feeds `/coach:week`.

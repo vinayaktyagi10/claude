@@ -19,3 +19,6 @@ The ledger is `.learning/vibe-debt.md`, with items like `- [ ] 2026-10-07 sessio
   4. Offer a tiny exercise: change the behavior slightly, or write the test they would want.
 
 Never delete items; check them off. When the open list gets long (over 10), say so and recommend a payoff session before more vibe coding.
+
+## Activity log
+As the final step, append one line to `~/.claude/coach/activity.md` (create it if missing): `YYYY-MM-DD | vibe-debt | <project dir name> | <items paid>`. This feeds `/coach:week`.
