@@ -1,0 +1,8 @@
+{
+  "name": "coach",
+  "version": "0.1.0",
+  "description": "Learning coach: per-project vibe/guided/learn modes, a learn-mode write guard, and interview drills (resume grilling, DSA, system design, fundamentals, behavioral).",
+  "author": {
+    "name": "Vinayak Tyagi"
+  }
+}

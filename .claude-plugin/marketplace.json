@@ -1,0 +1,13 @@
+{
+  "name": "vinayak-tools",
+  "owner": {
+    "name": "Vinayak Tyagi"
+  },
+  "plugins": [
+    {
+      "name": "coach",
+      "source": "./plugins/coach",
+      "description": "Per-project vibe/guided/learn modes plus interview-prep drills, so AI helps you learn instead of doing everything."
+    }
+  ]
+}
